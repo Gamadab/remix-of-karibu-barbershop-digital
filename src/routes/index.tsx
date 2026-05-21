@@ -51,13 +51,15 @@ function HomePage() {
             Expert fades, tapers and lineups by barbers who treat every cut like a craft.
           </p>
           <div className="mt-9 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/booking"
+            <a
+              href="https://book.thecut.co/reggieW"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 bg-gold text-gold-foreground px-8 py-4 text-sm uppercase tracking-widest font-bold hover:opacity-90 transition-all hover:gap-3"
               style={{ boxShadow: "var(--shadow-gold)" }}
             >
               Book Now <ArrowRight className="h-4 w-4" />
-            </Link>
+            </a>
             <Link
               to="/services"
               className="inline-flex items-center justify-center border border-border hover:border-gold hover:text-gold px-8 py-4 text-sm uppercase tracking-widest font-bold transition-colors"
@@ -159,13 +161,15 @@ function HomePage() {
           <p className="mt-5 text-muted-foreground max-w-xl mx-auto">
             Book your chair online in seconds — appointments only, Tue–Sat.
           </p>
-          <Link
-            to="/booking"
+          <a
+            href="https://book.thecut.co/reggieW"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-9 inline-flex items-center gap-2 bg-gold text-gold-foreground px-8 py-4 text-sm uppercase tracking-widest font-bold hover:opacity-90 transition-opacity"
             style={{ boxShadow: "var(--shadow-gold)" }}
           >
             Book Your Appointment <ArrowRight className="h-4 w-4" />
-          </Link>
+          </a>
         </div>
       </section>
     </>
