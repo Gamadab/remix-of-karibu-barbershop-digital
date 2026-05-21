@@ -135,12 +135,14 @@ function ServicesPage() {
             <p className="text-sm text-muted-foreground">
               Prices are starting points. Final price may vary based on hair length and style complexity.
             </p>
-            <Link
-              to="/booking"
+            <a
+              href="https://book.thecut.co/reggieW"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 bg-gold text-gold-foreground px-8 py-4 text-sm uppercase tracking-widest font-bold hover:opacity-90 transition-opacity"
             >
               Book Appointment <ArrowRight className="h-4 w-4" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

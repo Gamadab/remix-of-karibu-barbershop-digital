@@ -57,12 +57,14 @@ export function SiteHeader() {
               {l.label}
             </Link>
           ))}
-          <Link
-            to="/booking"
+          <a
+            href="https://book.thecut.co/reggieW"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-gold text-gold-foreground px-5 py-2.5 text-sm uppercase tracking-widest font-bold hover:opacity-90 transition-opacity"
           >
             Book Now
-          </Link>
+          </a>
         </nav>
 
         <button

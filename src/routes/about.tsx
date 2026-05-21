@@ -93,12 +93,14 @@ function AboutPage() {
         <div className="mx-auto max-w-3xl px-6">
           <h2 className="text-3xl sm:text-5xl font-bold">Come Sit In Our Chair</h2>
           <p className="mt-5 text-muted-foreground">Experience the The Gentlemen's Lounge difference for yourself.</p>
-          <Link
-            to="/booking"
+          <a
+            href="https://book.thecut.co/reggieW"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 bg-gold text-gold-foreground px-8 py-4 text-sm uppercase tracking-widest font-bold hover:opacity-90 transition-opacity"
           >
             Book Now <ArrowRight className="h-4 w-4" />
-          </Link>
+          </a>
         </div>
       </section>
     </>
