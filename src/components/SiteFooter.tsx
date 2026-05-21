@@ -17,10 +17,10 @@ export function SiteFooter() {
             Sharp cuts. Clean style. Tukwila&apos;s go-to barbershop for fades, tapers and lineups.
           </p>
           <div className="flex gap-3 mt-5">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="h-9 w-9 grid place-items-center border border-border hover:border-gold hover:text-gold transition-colors" aria-label="Instagram">
+            <a href="https://www.instagram.com/r_witherspoon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="h-9 w-9 grid place-items-center border border-border hover:border-gold hover:text-gold transition-colors" aria-label="Instagram">
               <Instagram className="h-4 w-4" />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer" className="h-9 w-9 grid place-items-center border border-border hover:border-gold hover:text-gold transition-colors" aria-label="Facebook">
+            <a href="https://www.facebook.com/spoon3/directory_intro" target="_blank" rel="noreferrer" className="h-9 w-9 grid place-items-center border border-border hover:border-gold hover:text-gold transition-colors" aria-label="Facebook">
               <Facebook className="h-4 w-4" />
             </a>
           </div>
