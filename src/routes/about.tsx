@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { Award, Scissors, Users, Sparkles, ArrowRight } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import interiorImg from "@/assets/shop-interior.jpg";
