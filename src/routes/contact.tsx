@@ -76,10 +76,10 @@ function ContactPage() {
             <div className="pt-4">
               <p className="text-xs uppercase tracking-widest font-semibold text-muted-foreground mb-3">Follow Us</p>
               <div className="flex gap-3">
-                <a href="https://instagram.com" target="_blank" rel="noreferrer" className="h-11 w-11 grid place-items-center border border-border hover:border-gold hover:text-gold transition-colors" aria-label="Instagram">
+                <a href="https://www.instagram.com/r_witherspoon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="h-11 w-11 grid place-items-center border border-border hover:border-gold hover:text-gold transition-colors" aria-label="Instagram">
                   <Instagram className="h-5 w-5" />
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noreferrer" className="h-11 w-11 grid place-items-center border border-border hover:border-gold hover:text-gold transition-colors" aria-label="Facebook">
+                <a href="https://www.facebook.com/spoon3/directory_intro" target="_blank" rel="noreferrer" className="h-11 w-11 grid place-items-center border border-border hover:border-gold hover:text-gold transition-colors" aria-label="Facebook">
                   <Facebook className="h-5 w-5" />
                 </a>
               </div>
