@@ -1,14 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/SectionHeading";
-import g1 from "@/assets/gallery-1.jpg";
-import g2 from "@/assets/gallery-2.jpg";
-import g3 from "@/assets/gallery-3.jpg";
-import g4 from "@/assets/gallery-4.jpg";
-import g5 from "@/assets/gallery-5.jpg";
-import g6 from "@/assets/gallery-6.jpg";
-import fade from "@/assets/style-fade.jpg";
-import taper from "@/assets/style-taper.jpg";
-import beard from "@/assets/style-beard.jpg";
+import r1 from "@/assets/real-1.jpeg";
+import r2 from "@/assets/real-2.jpeg";
+import r3 from "@/assets/real-3.jpeg";
+import r4 from "@/assets/real-4.jpeg";
+import r5 from "@/assets/real-5.jpeg";
+import r6 from "@/assets/real-6.jpeg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -23,15 +20,12 @@ export const Route = createFileRoute("/gallery")({
 });
 
 const images = [
-  { src: fade, alt: "Skin fade haircut" },
-  { src: g2, alt: "Curly top with sharp lineup" },
-  { src: g3, alt: "Mid fade with beard" },
-  { src: taper, alt: "Clean taper cut" },
-  { src: g6, alt: "Barber finishing a cut" },
-  { src: g1, alt: "Fresh fade top view" },
-  { src: beard, alt: "Beard trim with razor" },
-  { src: g5, alt: "High top fade" },
-  { src: g4, alt: "Barber tools" },
+  { src: r1, alt: "360 waves with taper fade and lined beard" },
+  { src: r2, alt: "Low fade with full beard sculpt" },
+  { src: r3, alt: "Curly afro top with sharp lineup and skin fade" },
+  { src: r4, alt: "Curly taper with lineup and goatee" },
+  { src: r5, alt: "Clean low taper with crisp lineup" },
+  { src: r6, alt: "Deep waves with taper fade and beard blend" },
 ];
 
 function GalleryPage() {
@@ -64,7 +58,7 @@ function GalleryPage() {
                   height={900}
                   loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  style={img.alt === "Clean taper cut" ? { objectPosition: "35% center" } : undefined}
+                  
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5">
                   <p className="text-sm font-semibold uppercase tracking-widest text-gold">{img.alt}</p>
