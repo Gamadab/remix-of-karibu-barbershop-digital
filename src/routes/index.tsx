@@ -11,7 +11,11 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "The Gentlemen's Lounge Barbershop — Sharp Cuts, Clean Style in Tukwila" },
-      { name: "description", content: "Tukwila's go-to barbershop for fades, tapers, lineups and beard trims. Book online — appointments only. 708 Industry Dr." },
+      {
+        name: "description",
+        content:
+          "Tukwila's go-to barbershop for fades, tapers, lineups and beard trims. Book online — appointments only. 708 Industry Dr.",
+      },
     ],
   }),
   component: HomePage,
@@ -74,7 +78,7 @@ function HomePage() {
           <div className="mx-auto max-w-7xl px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-4 text-center md:text-left">
             {[
               { icon: Star, label: "5-Star Rated" },
-              { icon: Award, label: "Master Barbers" },
+              { icon: Award, label: "Master Barber" },
               { icon: Scissors, label: "Precision Cuts" },
               { icon: Clock, label: "Open 6 Days" },
             ].map(({ icon: Icon, label }) => (
@@ -98,7 +102,8 @@ function HomePage() {
               description="At The Gentlemen's Lounge Barbershop, we blend old-school craftsmanship with modern style. Located in the heart of Tukwila on Industry Dr, our chairs are reserved for those who refuse to settle for an average cut."
             />
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              From classic tapers to bold designs, our master barbers bring precision, personality and pride to every visit. Step in. Sit back. Step out sharper than ever.
+              From classic tapers to bold designs, our master barbers bring precision, personality and pride to every
+              visit. Step in. Sit back. Step out sharper than ever.
             </p>
             <Link
               to="/about"
@@ -131,7 +136,10 @@ function HomePage() {
           />
           <div className="mt-14 grid md:grid-cols-3 gap-6">
             {styles.map((s) => (
-              <article key={s.title} className="group relative overflow-hidden bg-background border border-border hover:border-gold transition-colors">
+              <article
+                key={s.title}
+                className="group relative overflow-hidden bg-background border border-border hover:border-gold transition-colors"
+              >
                 <div className="aspect-[4/5] overflow-hidden">
                   <img
                     src={s.img}
