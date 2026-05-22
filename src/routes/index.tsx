@@ -140,6 +140,7 @@ function HomePage() {
                     height={1100}
                     loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    style={s.title === "Tapers" ? { objectPosition: "75% center" } : undefined}
                   />
                 </div>
                 <div className="p-6">
