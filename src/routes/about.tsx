@@ -7,9 +7,9 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — The Gentlemen's Lounge Barbershop Tukwila" },
-      { name: "description", content: "Learn the story behind The Gentlemen's Lounge Barbershop in Tukwila. Master barbers, precision cuts, and a welcoming experience for every client." },
+      { name: "description", content: "Learn the story behind The Gentlemen's Lounge Barbershop in Tukwila. Master barber, precision cuts, and a welcoming experience for every client." },
       { property: "og:title", content: "About The Gentlemen's Lounge Barbershop" },
-      { property: "og:description", content: "Master barbers, precision cuts and a welcoming experience in Tukwila." },
+      { property: "og:description", content: "Master barber, precision cuts and a welcoming experience in Tukwila." },
     ],
   }),
   component: AboutPage,
