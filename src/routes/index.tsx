@@ -102,8 +102,8 @@ function HomePage() {
               description="At The Gentlemen's Lounge Barbershop, we blend old-school craftsmanship with modern style. Located in the heart of Tukwila on Industry Dr, our chairs are reserved for those who refuse to settle for an average cut."
             />
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              From classic tapers to bold designs, our master barbers bring precision, personality and pride to every
-              visit. Step in. Sit back. Step out sharper than ever.
+            From classic tapers to bold designs, our master barber brings precision, personality and pride to every
+            visit. Step in. Sit back. Step out sharper than ever.
             </p>
             <Link
               to="/about"
