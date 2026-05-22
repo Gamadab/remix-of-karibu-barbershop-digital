@@ -64,6 +64,7 @@ function GalleryPage() {
                   height={900}
                   loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  style={img.alt === "Clean taper cut" ? { objectPosition: "75% center" } : undefined}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5">
                   <p className="text-sm font-semibold uppercase tracking-widest text-gold">{img.alt}</p>
