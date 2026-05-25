@@ -53,17 +53,17 @@ function AboutPage() {
             <SectionHeading
               align="left"
               eyebrow="Rooted In Tukwila"
-              title="A Chair For Every Client"
+              title="From Seattle to His Own Chair"
             />
             <div className="mt-6 space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                From North County to greater San Diego, The Gentlemen's Lounge Barbershop has become a trusted destination for men, women and kids who care about their look.
+                Reggie started his journey cutting hair in a shop right in Seattle, building his craft one fade at a time. As his skills and clientele grew, he found his own spot just outside the city in Tukwila — and The Gentlemen&apos;s Lounge Barbershop was born.
               </p>
               <p>
-                We blend old-school traditions — straight razors, hot towels and classic clipper work — with modern fades, designs and styling that keep you ahead of the trend.
+                Beyond the barber chair, Reggie is a fitness coach who trains kids, bringing the same discipline and energy from the gym to every cut. Old-school technique meets modern style — straight razors, hot towels, crisp fades, and sharp lineups.
               </p>
               <p>
-                Whether you&apos;re here for a quick lineup or a full service experience, you&apos;re family the moment you walk through the door.
+                Whether you&apos;re here for a quick lineup or the full experience, you&apos;re family the moment you walk through the door.
               </p>
             </div>
           </div>
