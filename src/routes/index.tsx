@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Tukwila's go-to barbershop for fades, tapers, lineups and beard trims. Book online — appointments only. 708 Industry Dr.",
+          "Seattle-trained barber now holding it down in Tukwila. Fades, tapers, lineups and beard trims. Book online — appointments only. 708 Industry Dr.",
       },
     ],
   }),
