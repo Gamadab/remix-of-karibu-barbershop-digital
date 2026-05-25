@@ -99,11 +99,10 @@ function HomePage() {
               align="left"
               eyebrow="Welcome to The Gentlemen's Lounge"
               title="Where Every Cut Tells a Story"
-              description="At The Gentlemen's Lounge Barbershop, we blend old-school craftsmanship with modern style. Located in the heart of Tukwila on Industry Dr, our chairs are reserved for those who refuse to settle for an average cut."
+              description="Started in a Seattle shop, now holding it down in Tukwila on Industry Dr. The Gentlemen's Lounge is where old-school craft meets modern style — and every chair is reserved for those who refuse to settle."
             />
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              From classic tapers to bold designs, our master barber brings precision, personality and pride to every
-              visit. Step in. Sit back. Step out sharper than ever.
+              Reggie built his name cutting hair in Seattle before opening his own spot right outside the city. A master barber and fitness coach who trains kids, he brings discipline, precision, and personality to every visit. Step in. Sit back. Step out sharper than ever.
             </p>
             <Link
               to="/about"
