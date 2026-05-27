@@ -5,7 +5,7 @@ import heroImg from "@/assets/hero.jpg";
 import fadeImg from "@/assets/style-fade.jpg";
 import taperImg from "@/assets/style-taper.jpg";
 import beardImg from "@/assets/style-beard.jpg";
-import interiorImg from "@/assets/shop-interior.jpg";
+import interiorImg from "@/assets/shop-chair.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
